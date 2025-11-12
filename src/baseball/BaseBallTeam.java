@@ -2,10 +2,10 @@ package baseball;
 
      public class BaseBallTeam {
           //フィールド
-         protected String name;      //チーム名
-         protected int win;          //勝ち数
-         protected int lose;         //負け数
-         protected int draw;         //引き分け数
+         private String name;      //チーム名
+         private int win;          //勝ち数
+         private int lose;         //負け数
+         private int draw;         //引き分け数
 
 
      public BaseBallTeam(String name,int win,int lose,int draw ){
